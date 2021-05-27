@@ -1,0 +1,28 @@
+#!/bin/bash
+read dir
+
+if [ -d "$dir" ]
+then
+	echo "$dir은 디렉토리 입니다."
+elif [ -L "$dir" ]
+then
+	echo "$dir은 심볼릭 링크입니다."
+elif [ -c "$dir" ]
+then
+	echo "$dir은 문자장치 입니다."
+elif [ -b "$dir" ]
+then
+	echo "$dir은 블록장치 입니다."
+elif [ -p "$dir" ]
+then
+	echo "$dir은 파이프 입니다."
+elif [ -s "$dir" ]
+then 
+	echo "$dir은 소캣 입니다."
+elif [ -e "$dir" ]
+then
+	echo "$dir은 보통파일 입니다."
+else
+	echo "$dir은 존재하지 않습니다."
+fi
+

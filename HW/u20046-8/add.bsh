@@ -1,0 +1,12 @@
+#!/bin/bash
+if (( $# == 0 ))
+then
+	echo "1개 이상의 정수 인수를 입력하세요." >&2
+else
+	x=0
+	for i in $*
+	do
+		let x+=i
+	done
+	echo $x
+fi

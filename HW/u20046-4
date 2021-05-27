@@ -1,0 +1,82 @@
+Script started on 2021-04-12 21:13:07+09:00 [TERM="xterm" TTY="/dev/pts/1" COLUMNS="94" LINES="24"]
+]0;u20046@solgae: ~u20046@solgae:~$ ㄷ[Kecho 1[KQ1
+Q1
+]0;u20046@solgae: ~u20046@solgae:~$ date > timerecord
+]0;u20046@solgae: ~u20046@solgae:~$ cat date[K[K[K[K[K timerecord 
+2021. 04. 12. (월) 21:13:23 KST
+]0;u20046@solgae: ~u20046@solgae:~$ date >> timerecord 
+]0;u20046@solgae: ~u20046@solgae:~$ cat t
+timerecord  typescript  
+]0;u20046@solgae: ~u20046@solgae:~$ cat timerecord 
+2021. 04. 12. (월) 21:13:23 KST
+2021. 04. 12. (월) 21:13:35 KST
+]0;u20046@solgae: ~u20046@solgae:~$ echo Q2
+Q2
+]0;u20046@solgae: ~u20046@solgae:~$ echo Hello [K[K[K[K[K[KHello \<your\> \& \[my]
+Hello <your> & [my]
+]0;u20046@solgae: ~u20046@solgae:~$ \[Kehco Q3
+
+Command 'ehco' not found, did you mean:
+
+  command 'echo' from deb coreutils (8.30-3ubuntu2)
+
+Try: apt install <deb name>
+
+]0;u20046@solgae: ~u20046@solgae:~$ echo Q3
+Q3
+]0;u20046@solgae: ~u20046@solgae:~$ bc
+bc 1.07.1
+Copyright 1991-1994, 1997, 1998, 2000, 2004, 2006, 2008, 2012-2017 Free Software Foundation, Inc.
+This is free software with ABSOLUTELY NO WARRANTY.
+For details type `warranty'. 
+scale = 30
+5/7
+.714285714285714285714285714285
+]0;u20046@solgae: ~u20046@solgae:~$ echo Q4
+Q4
+]0;u20046@solgae: ~u20046@solgae:~$ bc << myu[K[Kuyaho
+> scale = 30
+> 5/7
+> muyaho
+.714285714285714285714285714285
+]0;u20046@solgae: ~u20046@solgae:~$ echo Q5
+Q5
+]0;u20046@solgae: ~u20046@solgae:~$ echo /bina*[K[K/a*
+/bin/aa-enabled /bin/aa-exec /bin/aclocal /bin/aclocal-1.16 /bin/aconnect /bin/acpi_listen /bin/add-apt-repository /bin/addpart /bin/addr2line /bin/alsabat /bin/alsaloop /bin/alsamixer /bin/alsatplg /bin/alsaucm /bin/amidi /bin/amixer /bin/amuFormat.sh /bin/apg /bin/apgbfm /bin/aplay /bin/aplaymidi /bin/apport-bug /bin/apport-cli /bin/apport-collect /bin/apport-unpack /bin/appres /bin/appstreamcli /bin/apropos /bin/apt /bin/apt-add-repository /bin/apt-cache /bin/apt-cdrom /bin/apt-config /bin/apt-extracttemplates /bin/apt-ftparchive /bin/apt-get /bin/apt-key /bin/apt-mark /bin/apt-sortpkgs /bin/aptdcon /bin/apturl /bin/apturl-gtk /bin/ar /bin/arch /bin/arecord /bin/arecordmidi /bin/arm2hpdl /bin/as /bin/aseqdump /bin/aseqnet /bin/aspell /bin/aspell-import /bin/atobm /bin/autoconf /bin/autoheader /bin/autom4te /bin/automake /bin/automake-1.16 /bin/autoreconf /bin/autoscan /bin/autoupdate /bin/avahi-browse /bin/avahi-browse-domains /bin/avahi-publish /bin/avahi-publish-address /bin/avahi-publish-service /bin/avahi-resolve /bin/avahi-resolve-address /bin/avahi-resolve-host-name /bin/avahi-set-host-name /bin/awk /bin/axfer
+]0;u20046@solgae: ~u20046@solgae:~$ echo /bin/*[a-k]
+/bin/Xorg /bin/Xwayland /bin/aa-enabled /bin/aa-exec /bin/addr2line /bin/alsatplg /bin/amidi /bin/amuFormat.sh /bin/apg /bin/aplaymidi /bin/apport-bug /bin/apport-cli /bin/apport-unpack /bin/appstreamcli /bin/apt-cache /bin/apt-config /bin/apt-ftparchive /bin/apt-mark /bin/apturl-gtk /bin/arch /bin/arecord /bin/arecordmidi /bin/autoconf /bin/autom4te /bin/automake /bin/autoreconf /bin/autoupdate /bin/avahi-browse /bin/avahi-publish /bin/avahi-publish-service /bin/avahi-resolve /bin/avahi-resolve-host-name /bin/avahi-set-host-name /bin/awk /bin/baobab /bin/basename /bin/bash /bin/bashbug /bin/bc /bin/bccmd /bin/bdftopcf /bin/bdftruncate /bin/bmtoa /bin/brltty-ctb /bin/brltty-ttb /bin/broadwayd /bin/browse /bin/bsd-write /bin/btattach /bin/bzdiff /bin/bzexe /bin/bzmore /bin/c89-gcc /bin/c99-gcc /bin/c_rehash /bin/caca-config /bin/calibrate_ppa /bin/cc /bin/cd-create-profile /bin/cd-fix-profile /bin/chage /bin/cheese /bin/chmod /bin/chsh /bin/clear_console /bin/codepage /bin/compose /bin/crontab /bin/csh /bin/cupstestppd /bin/dash /bin/date /bin/dbus-launch /bin/dbus-send /bin/dc /bin/dconf /bin/dd /bin/ddstdecode /bin/deb-systemd-invoke /bin/debconf /bin/debconf-communicate /bin/debconf-copydb /bin/debconf-escape /bin/desktop-file-validate /bin/df /bin/dh_autotools-dev_restoreconfig /bin/dh_autotools-dev_updateconfig /bin/diff /bin/dig /bin/dirname /bin/dmesg /bin/dnsdomainname /bin/do-release-upgrade /bin/domainname /bin/dotlock /bin/dpkg /bin/dpkg-deb /bin/dpkg-statoverride /bin/dvipdf /bin/ebrowse /bin/ed /bin/emacs-gtk /bin/eog /bin/evince /bin/expand /bin/faillog /bin/fallocate /bin/false /bin/fc-cache /bin/fc-match /bin/fc-validate /bin/fgconsole /bin/file /bin/fincore /bin/find /bin/flock /bin/fold /bin/foo2hiperc /bin/foo2lava /bin/foo2oak /bin/fprintd-delete /bin/free /bin/futurize /bin/fwupdate /bin/fwupdtpmevlog /bin/gamemoded /bin/gamma4scanimage /bin/gcalccmd /bin/gcc /bin/gcc-ranlib /bin/gcore /bin/gdb /bin/gdbtui /bin/gdialog /bin/gdk-pixbuf-csource /bin/gdk-pixbuf-pixdata /bin/genisoimage /bin/getconf /bin/gettext.sh /bin/gipddecode /bin/git-receive-pack /bin/git-upload-archive /bin/git-upload-pack /bin/gjs-console /bin/glib-gettextize /bin/gnome-keyring /bin/gnome-session-remmina /bin/gold /bin/gpasswd /bin/gpg /bin/gpgcompose /bin/gpgconf /bin/gpic /bin/gprof /bin/gresource /bin/groff /bin/grog /bin/grub-file /bin/grub-glue-efi /bin/grub-menulst2cfg /bin/grub-mkimage /bin/grub-mkrelpath /bin/grub-mkrescue /bin/grub-mkstandalone /bin/grub-ntldr-img /bin/grub-script-check /bin/grub-syslinux2cfg /bin/gsbj /bin/gsdj /bin/gslj /bin/gsnd /bin/gtf /bin/gtk-encode-symbolic-svg /bin/gtk-launch /bin/gtk-update-icon-cache /bin/gvfs-mime /bin/gvfs-monitor-file /bin/gvfs-move /bin/gvfs-rename /bin/gvfs-save /bin/gvfs-set-attribute /bin/gvfs-trash /bin/gvfs-tree /bin/gzexe /bin/h2ph /bin/hbpldecode /bin/hciattach /bin/hciconfig /bin/hd /bin/head /bin/hex2hcd /bin/hipercdecode /bin/hostid /bin/hostname /bin/hp-check /bin/hp-firmware /bin/hp-logcapture /bin/hp-makeuri /bin/hp-pkservice /bin/hp-probe /bin/hp-testpage /bin/hp-timedate /bin/i686-linux-gnu-pkg-config /bin/ibus-table-createdb /bin/iceauth /bin/id /bin/im-config /bin/im-launch /bin/inputattach /bin/instmodsh /bin/ionice /bin/ipcmk /bin/ipod-read-sysinfo-extended /bin/ipod-time-sync /bin/ippfind /bin/isdv4-serial-inputattach /bin/jpgicc /bin/kbd_mode /bin/keyring /bin/kmod /bin/l2ping /bin/lastb /bin/lastlog /bin/lavadecode /bin/lcf /bin/ld /bin/ld.bfd /bin/ld.gold /bin/ldd /bin/lessfile /bin/lesspipe /bin/lexgrog /bin/libnetcfg /bin/libpng-config /bin/libpng16-config /bin/libreoffice /bin/libtoolize /bin/link /bin/linkicc /bin/localc /bin/locale /bin/locale-check /bin/localedef /bin/loffice /bin/lofromtemplate /bin/logname /bin/lomath /bin/look /bin/loweb /bin/lowntfs-3g /bin/lp_solve /bin/lsb_release /bin/lsblk /bin/lsipc /bin/lsmod /bin/lsof /bin/lspci /bin/lsusb /bin/ltrace /bin/lwp-download /bin/lz4c /bin/lzdiff /bin/lzma /bin/lzmore /bin/m17n-db /bin/make /bin/man-recode /bin/mandb /bin/manpath /bin/mattrib /bin/mawk /bin/mcd /bin/mcheck /bin/mclasserase /bin/mcookie /bin/mdeltree /bin/mdig /bin/mesg /bin/migrate-pubring-from-classic-gpg /bin/mimetype /bin/mkfontscale /bin/mknod /bin/mkzftree /bin/mmcli /bin/mmd /bin/mmove /bin/more /bin/mrd /bin/msexpand /bin/mshortname /bin/mtrace /bin/mtype /bin/namei /bin/nautilus-autorun-software /bin/nawk /bin/nc /bin/nc.openbsd /bin/nice /bin/nisdomainname /bin/nm-online /bin/nmcli /bin/nmtui /bin/nmtui-hostname /bin/notify-send /bin/nproc /bin/nroff /bin/nsupdate /bin/ntfs-3g /bin/ntfs-3g.probe /bin/ntfsfallocate /bin/ntfsmove /bin/ntfstruncate /bin/ntfswipe /bin/oakdecode /bin/oclock /bin/od /bin/opldecode /bin/orca /bin/pacmd /bin/paperconf /bin/parec /bin/parecord /bin/passwd /bin/paste /bin/pasteurize /bin/patch /bin/pathchk /bin/pax11publish /bin/pcre-config /bin/pcre2-config /bin/pdf2dsc /bin/pdfattach /bin/pdfdetach /bin/pdfseparate /bin/pdfsig /bin/pdfunite /bin/peekfd /bin/perlbug /bin/perldoc /bin/perli11ndoc /bin/pfbtopfa /bin/pic /bin/pidof /bin/ping /bin/pkcheck /bin/pkexec /bin/pkg-config /bin/pldd /bin/plog /bin/plymouth /bin/pnm2ppa /bin/pod2usage /bin/poff /bin/ppdc /bin/ppdi /bin/ppdmerge /bin/printer-profile /bin/printf /bin/prove /bin/ps2ascii /bin/ps2epsi /bin/ps2pdf /bin/psfaddtable /bin/psfgettable /bin/psfstriptable /bin/psfxtable /bin/psicc /bin/pslog /bin/pstree /bin/ptardiff /bin/pwd /bin/py3compile /bin/pycompile /bin/python3-futurize /bin/python3-pasteurize /bin/qpdldecode /bin/ranlib /bin/rbash /bin/rdma /bin/readelf /bin/readlink /bin/readmsg /bin/realpath /bin/red /bin/remmina /bin/remmina-gnome /bin/rendercheck /bin/renice /bin/routef /bin/rrsync /bin/rsh /bin/rstartd /bin/rsync /bin/savelog /bin/sbattach /bin/sbkeysync /bin/scanimage /bin/scp-dbus-service /bin/sdiff /bin/sdl-config /bin/seahorse /bin/sed /bin/see /bin/sessreg /bin/setarch /bin/setmetamode /bin/setpci /bin/setsid /bin/sg /bin/sh /bin/showrgb /bin/shred /bin/shuf /bin/sieve /bin/size /bin/slxdecode /bin/snapfuse /bin/snice /bin/soffice /bin/software-properties-gtk /bin/spd-conf /bin/sprof /bin/ssh /bin/ssh-add /bin/ssh-copy-id /bin/ssh-import-id /bin/ssh-import-id-gh /bin/static-sh /bin/stdbuf /bin/strace /bin/strace-log-merge /bin/sync /bin/systemd /bin/systemd-analyze /bin/systemd-ask-password /bin/systemd-delta /bin/systemd-escape /bin/systemd-hwdb /bin/systemd-path /bin/systemd-resolve /bin/systemd-socket-activate /bin/systemd-stdio-bridge /bin/tac /bin/tcsh /bin/tee /bin/tempfile /bin/thunderbird /bin/tic /bin/tificc /bin/time /bin/tload /bin/toe /bin/touch /bin/tracepath /bin/transicc /bin/transmission-gtk /bin/troff /bin/true /bin/truncate /bin/ttfread /bin/ua /bin/ubuntu-advantage /bin/ubuntu-bug /bin/ucf /bin/uname /bin/unattended-upgrade /bin/unexpand /bin/unlink /bin/unlzma /bin/unopkg /bin/unshare /bin/update-desktop-database /bin/update-mime-database /bin/uptime /bin/usb-creator-gtk /bin/usb_printerid /bin/uuidparse /bin/vi /bin/vim.basic /bin/vimdiff /bin/volname /bin/watch /bin/watchgnupg /bin/wc /bin/which /bin/whoami /bin/whoopsie /bin/wpa_passphrase /bin/write /bin/x11perf /bin/x86_64-linux-gnu-addr2line /bin/x86_64-linux-gnu-gcc /bin/x86_64-linux-gnu-gcc-ranlib /bin/x86_64-linux-gnu-gold /bin/x86_64-linux-gnu-gprof /bin/x86_64-linux-gnu-ld /bin/x86_64-linux-gnu-ld.bfd /bin/x86_64-linux-gnu-ld.gold /bin/x86_64-linux-gnu-pkg-config /bin/x86_64-linux-gnu-ranlib /bin/x86_64-linux-gnu-readelf /bin/x86_64-linux-gnu-size /bin/x86_64-pc-linux-gnu-pkg-config /bin/xauth /bin/xbiff /bin/xbrlapi /bin/xcalc /bin/xclipboard /bin/xclock /bin/xcmsdb /bin/xconsole /bin/xdg-icon-resource /bin/xdg-mime /bin/xdg-user-dirs-gtk-update /bin/xdg-user-dirs-update /bin/xfd /bin/xgamma /bin/xgc /bin/xkbevd /bin/xkbwatch /bin/xkeystone /bin/xload /bin/xmag /bin/xmessage /bin/xmore /bin/xqxdecode /bin/xrdb /bin/xrefresh /bin/xsetmode /bin/xvidtune /bin/xwd /bin/xwud /bin/xxd /bin/xzdiff /bin/xzmore /bin/ypdomainname /bin/zdiff /bin/zforce /bin/zipcloak /bin/zipnote /bin/zjsdecode /bin/zmore
+]0;u20046@solgae: ~u20046@solgae:~$ echo /bin/p???
+/bin/pdb2 /bin/pdb3 /bin/perl /bin/pftp /bin/pico /bin/ping /bin/pldd /bin/plog /bin/pmap /bin/poff /bin/ppdc /bin/ppdi /bin/pphs /bin/ptar /bin/pwdx
+]0;u20046@solgae: ~u20046@solgae:~$ echo Q6
+Q6
+]0;u20046@solgae: ~u20046@solgae:~$ cat Hello[K[K[K[K[Ktimerecord 
+2021. 04. 12. (월) 21:13:23 KST
+2021. 04. 12. (월) 21:13:35 KST
+]0;u20046@solgae: ~u20046@solgae:~$ echo $?
+0
+]0;u20046@solgae: ~u20046@solgae:~$ cat av[Kbc
+cat: abc: No such file or directory
+]0;u20046@solgae: ~u20046@solgae:~$ echo $?
+1
+]0;u20046@solgae: ~u20046@solgae:~$ cat abc || echo ERROR!
+cat: abc: No such file or directory
+ERROR!
+]0;u20046@solgae: ~u20046@solgae:~$ echo Q8
+Q8
+]0;u20046@solgae: ~u20046@solgae:~$ sleep 1000000 &
+[1] 1115542
+]0;u20046@solgae: ~u20046@solgae:~$ kill -STOP %1
+
+[1]+  Stopped                 sleep 1000000
+]0;u20046@solgae: ~u20046@solgae:~$ fg %1
+sleep 1000000
+^Z
+[1]+  Stopped                 sleep 1000000
+]0;u20046@solgae: ~u20046@solgae:~$ ^C
+]0;u20046@solgae: ~u20046@solgae:~$ echo 과제 끝~
+과제 끝~
+]0;u20046@solgae: ~u20046@solgae:~$ exit
+There are stopped jobs.
+]0;u20046@solgae: ~u20046@solgae:~$ exit
+
+Script done on 2021-04-12 21:17:38+09:00 [COMMAND_EXIT_CODE="0"]

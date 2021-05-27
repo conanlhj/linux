@@ -1,0 +1,127 @@
+Script started on 2021-04-23 19:30:11+09:00 [TERM="xterm" TTY="/dev/pts/6" COLUMNS="103" LINES="24"]
+]0;u20046@solgae: ~u20046@solgae:~$ echo 1번문제!
+1번문제!
+]0;u20046@solgae: ~u20046@solgae:~$ se[Kleep 100000000 &
+[1] 504794
+]0;u20046@solgae: ~u20046@solgae:~$ kill -STOP %1
+
+[1]+  Stopped                 sleep 100000000
+]0;u20046@solgae: ~u20046@solgae:~$ fg %1
+sleep 100000000
+^Z
+[1]+  Stopped                 sleep 100000000
+]0;u20046@solgae: ~u20046@solgae:~$ ^C
+]0;u20046@solgae: ~u20046@solgae:~$ kill -KILL %1
+
+[1]+  Stopped                 sleep 100000000
+]0;u20046@solgae: ~u20046@solgae:~$ ^C
+[1]+  Killed                  sleep 100000000
+]0;u20046@solgae: ~u20046@solgae:~$ ^C
+]0;u20046@solgae: ~u20046@solgae:~$ sc[K[Kexit
+
+Script done on 2021-04-23 19:31:09+09:00 [COMMAND_EXIT_CODE="130"]
+Script started on 2021-04-23 19:31:15+09:00 [TERM="xterm" TTY="/dev/pts/6" COLUMNS="103" LINES="24"]
+]0;u20046@solgae: ~u20046@solgae:~$ echo 11qjs![K[K[K[Kqjs[K[K[K번![K문제!
+11번문제!
+]0;u20046@solgae: ~u20046@solgae:~$ cat >> .bash [Krc
+export PATH=${PATH}:/home/u20046
+alias dir='ls -F'
+alias del='rm -i'
+alias cp='cp -i'
+alias mbv  vb='cd ,,'   ..'
+]0;u20046@solgae: ~u20046@solgae:~$ . .bashrc
+]0;u20046@solgae: ~u20046@solgae:~$ echo $PATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/u20046:/home/u20046:/home/u20046:/home/u20046
+]0;u20046@solgae: ~u20046@solgae:~$ date > curDate
+]0;u20046@solgae: ~u20046@solgae:~$ cp curDate curDate2
+]0;u20046@solgae: ~u20046@solgae:~$ dir
+[0m[01;34mHW[0m/  curDate  curDate2  typescript
+]0;u20046@solgae: ~u20046@solgae:~$ del curDate 2[K[K2
+rm: remove regular file 'curDate2'? y
+]0;u20046@solgae: ~u20046@solgae:~$ mvb
+]0;u20046@solgae: /homeu20046@solgae:/home$ cd ~
+]0;u20046@solgae: ~u20046@solgae:~$ del curDate
+rm: remove regular file 'curDate'? y
+]0;u20046@solgae: ~u20046@solgae:~$ exit
+
+Script done on 2021-04-23 19:33:35+09:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2021-04-23 19:34:14+09:00 [TERM="xterm" TTY="/dev/pts/6" COLUMNS="103" LINES="24"]
+]0;u20046@solgae: ~u20046@solgae:~$ echo 12qjs[K[K[K번!
+12번!
+]0;u20046@solgae: ~u20046@solgae:~$ ps
+    PID TTY          TIME CMD
+ 504949 pts/8    00:00:00 bash
+ 504957 pts/8    00:00:00 ps
+]0;u20046@solgae: ~u20046@solgae:~$ ech [Ko $$
+504949
+]0;u20046@solgae: ~u20046@solgae:~$ echo 13번!!!
+echo 13번echo $$!
+13번echo 504949!
+]0;u20046@solgae: ~u20046@solgae:~$ echo !e[K[K[K Hello World![K[K[K[K[K[K[K[K[K[K[K[K13번 문제 풀기
+13번 문제 풀기
+]0;u20046@solgae: ~u20046@solgae:~$ echo !e:2:p
+echo 문제
+]0;u20046@solgae: ~u20046@solgae:~$ echo 14번 문제 풀기
+14번 문제 풀기
+]0;u20046@solgae: ~u20046@solgae:~$ set -oi[K noclobber 
+]0;u20046@solgae: ~u20046@solgae:~$ cat > Hello
+sd  ]0;u20046@solgae: ~u20046@solgae:~$ cat > Hello
+bash: Hello: cannot overwrite existing file
+]0;u20046@solgae: ~u20046@solgae:~$ set +o cl[K[Knoclobber 
+]0;u20046@solgae: ~u20046@solgae:~$ cat > Hello
+]0;u20046@solgae: ~u20046@solgae:~$ set - o no=[K[K[K[K[K[Ko noglob
+]0;u20046@solgae: ~u20046@solgae:~$ ls H*
+ls: cannot access 'H*': No such file or directory
+]0;u20046@solgae: ~u20046@solgae:~$ setls H*set -o noglob[1P[1@+
+]0;u20046@solgae: ~u20046@solgae:~$ ls H*
+Hello
+
+HW:
+u20046-2  u20046-4
+]0;u20046@solgae: ~u20046@solgae:~$ exit
+
+Script done on 2021-04-23 19:36:37+09:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2021-04-23 19:36:40+09:00 [TERM="xterm" TTY="/dev/pts/6" COLUMNS="103" LINES="24"]
+]0;u20046@solgae: ~u20046@solgae:~$ set -o nogl[K[K[K[K[K[K[K[K[K[K[Ksleep 10 &
+[1] 505049
+]0;u20046@solgae: ~u20046@solgae:~$ set -o notify 
+]0;u20046@solgae: ~u20046@solgae:~$ [1]+  Done                    sleep 10
+d[Kexit
+
+Script done on 2021-04-23 19:37:09+09:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2021-04-23 19:37:16+09:00 [TERM="xterm" TTY="/dev/pts/6" COLUMNS="103" LINES="24"]
+]0;u20046@solgae: ~u20046@solgae:~$ echo 13번!!![K[K[K[K[K5번~[K문제
+15번문제
+]0;u20046@solgae: ~u20046@solgae:~$ cat my[K[K> myfirst[K[K[K[K[KFirstShee[K[Kl[KellScript
+#i/bin/bash
+echo "      echo "******************"
+echo "이름 : 이한진"
+echo "학번 : 2020253046"
+echo "첫번째 쉘 스크립트"
+echo "******************"
+echo 사용자이름 : $LOGNAME
+echo 날짜 : `date`
+echo 현재 사용자 수 : `who | wc -l`
+echo 숨겨진 파일 목록 : .*
+echo 첫번째 인수 : $1
+]0;u20046@solgae: ~u20046@solgae:~$ exit
+
+Script done on 2021-04-23 19:38:10+09:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2021-04-23 19:38:15+09:00 [TERM="xterm" TTY="/dev/pts/6" COLUMNS="103" LINES="24"]
+]0;u20046@solgae: ~u20046@solgae:~$ ./script2 yyy
+bash: ./script2: No such file or directory
+]0;u20046@solgae: ~u20046@solgae:~$ ./script2 yyy[K[K[K[K[K[K[K[K[K[K[K[K[Kchmod +x myfi[K[KFirstShellScript 
+]0;u20046@solgae: ~u20046@solgae:~$ ./myFirstShellScript yyy
+******************
+이름 : 이한진
+학번 : 2020253046
+첫번째 쉘 스크립트
+******************
+사용자이름 : u20046
+날짜 : 2021. 04. 23. (금) 19:39:00 KST
+현재 사용자 수 : 5
+숨겨진 파일 목록 : . .. .bash_history .bash_logout .bashrc .cache .config .local .profile .viminfo
+첫번째 인수 : yyy
+]0;u20046@solgae: ~u20046@solgae:~$ exit
+
+Script done on 2021-04-23 19:39:04+09:00 [COMMAND_EXIT_CODE="0"]
